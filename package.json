@@ -1,0 +1,39 @@
+{
+  "name": "@stronghandsprotocol/bnb-token-list",
+  "version": "1.0.0",
+  "description": "◦ The Stronghands DEX BNB token list",
+  "main": "build/stronghands-dex-bnb.tokenlist.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "mkdir build && node src/write.js > build/stronghands-dex-bnb.tokenlist.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/stronghands-dex-bnb.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stronghands-Protocol/bnb-token-list.git"
+  },
+  "keywords": [
+    "stronghands",
+    "default",
+    "token",
+    "list"
+  ],
+  "author": "Stronghands Protocol",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Stronghands-Protocol/bnb-token-list/issues"
+  },
+  "homepage": "https://github.com/Stronghands-Protocol/bnb-token-list#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.29",
+    "@uniswap/token-list-bridge-utils": "1.1.0",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
