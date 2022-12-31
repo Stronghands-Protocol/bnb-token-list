@@ -1,6 +1,6 @@
 {
   "name": "@stronghandsprotocol/bnb-token-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "◦ The Stronghands DEX BNB token list",
   "main": "build/stronghands-dex-bnb.tokenlist.json",
   "scripts": {
