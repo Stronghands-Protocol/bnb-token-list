@@ -38,5 +38,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://raw.githubusercontent.com/Stronghands-Protocol/assets/master/tokens/bnb/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png"
+  },
+  {
+    "name": "Stronghands Optimizer",
+    "address": "0xca8cd003E3e8F5159fd28C2b2582360167921b0D",
+    "symbol": "SDO",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/Stronghands-Protocol/assets/master/tokens/bnb/0xca8cd003E3e8F5159fd28C2b2582360167921b0D/logo.png"
   }
 ]
