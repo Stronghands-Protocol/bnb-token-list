@@ -46,5 +46,13 @@
     "decimals": 18,
     "chainId": 56,
     "logoURI": "https://raw.githubusercontent.com/Stronghands-Protocol/assets/master/tokens/bnb/0xca8cd003E3e8F5159fd28C2b2582360167921b0D/logo.png"
+  },
+  {
+    "name": "Stronghands DEX Elite",
+    "address": "0xEf709B3aC94BD9976FB25F74E96922D6B407c44A",
+    "symbol": "SDE",
+    "decimals": 18,
+    "chainId": 56,
+    "logoURI": "https://raw.githubusercontent.com/Stronghands-Protocol/assets/master/tokens/bnb/0xEf709B3aC94BD9976FB25F74E96922D6B407c44A/logo.png"
   }
 ]
